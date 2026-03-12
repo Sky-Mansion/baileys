@@ -34,7 +34,7 @@
       "whatsapp-web"
    ],
    "homepage": "https://github.com/Sky-Mansion/baileys#readme",
-   "author": "Lia Wynn",
+   "author": "Sky-Mansion",
    "license": "MIT",
    "dependencies": {
       "@adiwajshing/keyed-db": "^0.2.4",
@@ -52,12 +52,16 @@
       "ws": "^8.19.0"
    },
    "peerDependencies": {
+      "@napi-rs/image": "~1.12.0",
       "audio-decode": "^2.2.3",
       "jimp": "^1.6.0",
       "link-preview-js": "^3.0.0",
       "sharp": "*"
    },
    "peerDependenciesMeta": {
+      "@napi-rs/image": {
+         "optional": true
+      },
       "audio-decode": {
          "optional": true
       },
@@ -65,9 +69,6 @@
          "optional": true
       },
       "link-preview-js": {
-         "optional": true
-      },
-      "qrcode-terminal": {
          "optional": true
       }
    },
