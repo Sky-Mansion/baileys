@@ -1,6 +1,6 @@
 {
    "name": "@sky-mansion/baileys",
-   "version": "1.0.7",
+   "version": "1.0.8",
    "description": "SkyMansion Baileys",
    "main": "lib/index.js",
    "type": "module",
